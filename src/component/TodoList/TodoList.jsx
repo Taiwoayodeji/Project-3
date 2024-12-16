@@ -29,7 +29,7 @@ export default function TodoList() {
   const filteredTodos = todos.filter((todo) => {
     if (filter === 'completed') return todo.completed;
     if (filter === 'incomplete') return !todo.completed;
-    return true; // 'all'
+    return true; 
   });
 
   return (
