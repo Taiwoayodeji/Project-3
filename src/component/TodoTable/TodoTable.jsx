@@ -26,7 +26,7 @@ export default function TodoTable({ todos, onToggleCompleted, onDelete }) {
             </td>
             <td>
               <Button
-                variant="warning"
+                variant="info"
                 onClick={() => onToggleCompleted(index)}
                 className="me-2"
               >
