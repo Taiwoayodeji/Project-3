@@ -1,5 +1,5 @@
 {
-  "homepage": "https://taiwoayodeji.github.io/Project-3/",
+  "homepage": "https://taiwoayodeji.github.io/Project-3",
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
