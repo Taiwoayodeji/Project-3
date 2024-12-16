@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# TO-DO APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The To-Do List App is a simple, interactive web application built with React. The app allows users to manage tasks by adding, viewing, marking as complete, and deleting to-do items. Users can categorize tasks into completed and incomplete tasks and manage their to-do lists efficiently. The app uses React for state management and Bootstrap for styling to provide a responsive and user-friendly interface.
 
-In the project directory, you can run:
+## Wireframes
 
-### `npm start`
+<img src="./src/imgs/1.png"/>
+<img src="./src/imgs/2.png"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- CSS
+- Bootstrap
+- React
 
-### `npm test`
+## User Stories
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **As a user**, I want to add tasks to my to-do list so that I can keep track of my work.
+2. **As a user**, I want to mark tasks as completed so that I can distinguish between completed and pending tasks.
+3. **As a user**, I want to filter my tasks (all, completed, pending) to focus on specific categories.
 
-### `npm run build`
+## Screen Shots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="./src/imgs/3.png"/>
+<img src="./src/imgs/4.png"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Next Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Allow users to **set priorities** for their tasks (e.g., high, medium, low) and sort tasks based on priority.
+2. Add a feature for users to **set due dates for tasks** and sort tasks by their due date.
+3. Allow users to **categorize tasks (e.g., Work, Personal)** and filter them based on categories.
+4. Allow users to **sign in** and have their to-do lists saved to their accounts.
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deji Taiwo - [@LinkedIn](https://www.linkedin.com/in/taiwo-a-80346223b/)
