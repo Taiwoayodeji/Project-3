@@ -14,8 +14,8 @@ export default function App() {
       </nav>
 
       <Routes>
+        <Route path="/" element={<TodoList />} />{" "}
         <Route path="/todos" element={<TodoList />} />
-
         <Route path="/contact" element={<ContactForm />} />
       </Routes>
     </Router>
