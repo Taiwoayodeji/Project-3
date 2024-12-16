@@ -1,4 +1,4 @@
-# TO-DO APP
+# To-Do Application
 
 ## Description
 
