@@ -18,7 +18,7 @@ export default function TodoInput({ onAddTask }) {
         <Form.Label>Add a new task</Form.Label>
         <Form.Control
           type="text"
-          placeholder="Enter task"
+          placeholder="Enter a task"
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
         />
