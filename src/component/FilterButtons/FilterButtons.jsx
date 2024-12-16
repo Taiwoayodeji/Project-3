@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function FilterButtons({ currentFilter, onFilterChange }) {
   return (
+    
     <ButtonGroup className="mb-3">
       <Button
         variant={currentFilter === 'all' ? 'primary' : 'outline-primary'}
