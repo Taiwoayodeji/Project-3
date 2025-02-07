@@ -1,5 +1,11 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Navigate,
+} from "react-router-dom";
 import TodoList from "./component/TodoList/TodoList";
 import ContactForm from "./component/ContactForm/ContactForm";
 import "./styles/style.css";
@@ -14,7 +20,9 @@ export default function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<TodoList />} />{" "}
+        {/* Redirect root path to /todos */}
+        <Route path="/" element={<Navigate to="/todos" replace />} />
+
         <Route path="/todos" element={<TodoList />} />
         <Route path="/contact" element={<ContactForm />} />
       </Routes>
